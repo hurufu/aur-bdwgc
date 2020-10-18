@@ -1,0 +1,17 @@
+pkgbase = libbdwgc
+	pkgdesc = Boehm-Demers-Weiser conservtive garbage collector (with debugging enabled)
+	pkgver = 8.0.4
+	pkgrel = 1
+	url = https://www.hboehm.info/gc/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = make
+	provides = gc
+	conflicts = gc
+	source = https://www.hboehm.info/gc//gc_source/gc-8.0.4.tar.gz
+	md5sums = 67a5093e2f9f381bd550aa891d00b54b
+	sha1sums = 4b8b24534f469b64ff4bc2332a9bdf8bef8bf1d4
+
+pkgname = libbdwgc
+
